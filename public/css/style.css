@@ -1,0 +1,119 @@
+.nav-div {
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 1.7rem;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(56, 108, 185);
+    margin:10px;
+}
+.navitems {
+    text-align: center;
+    font-family: 'Pixelify Sans', cursive;
+    font-weight: bold;
+}
+.navitems :hover{
+    color: rgb(49, 154, 149);
+    text-shadow: rgb(0, 255, 229) 2px 4px 50px;
+}
+.container{
+    padding:2%;
+}
+.nav-div{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top: 20px;
+    height:80px;
+    width:1100px;
+    border-radius: 50px;
+    background-color: azure;
+}
+body{
+    background-image: url(/images/smoke-colors-abstract-qo.jpg);
+    background-size: cover;
+}
+
+.about{
+    display: flex;
+    gap:20px;
+    background-color: rgba(240, 255, 255, 0.83);
+    width: 1500px;
+    margin: 10px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+    padding:5%;
+}
+.mission{
+    width: 1500px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    background-color: rgba(240, 255, 255, 0.83);
+    margin: 10px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+    padding:5%;
+}
+.carousel-caption h5{
+    text-align: center;
+}
+.carousel-item img{
+    height:700px;
+}
+.carousel-caption{
+    border-radius: 10px;
+    color:white;
+    background-color: rgba(41, 42, 42, 0.803);
+    padding:3%;
+    text-align: justify;
+}
+.about p{
+    text-align:justify;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    color: rgb(41, 52, 170);
+}
+.mission p{
+    text-align:justify;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    color: rgb(41, 52, 170);
+
+}
+.mission h1{
+    color: rgb(41, 52, 170);
+    font-family: 'Croissant One', cursive;
+}
+.about h1{
+    color: rgb(41, 52, 170);
+    font-family: 'Croissant One', cursive;
+}
+.about-img{
+    height:200px;
+    width:560px;
+}
+.about-left{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.footer{
+    margin-right: auto;
+    margin-left: auto;
+    color:azure;
+    text-align: center;
+    width: 1500px;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: rgba(41, 42, 42, 0.803);;
+}
